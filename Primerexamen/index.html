@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Primer examen parcial</title>
+
+    <style>
+
+        body {
+            font-family: braddon, sans-serif;
+            background-image: url(imagenes/party.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+            width: 80%;
+        }
+        
+        #table1 {
+                width: 80%;
+                background-color: skyblue;
+                text-align: center;
+                margin: 0 auto;
+        }
+
+        .td25 {
+            width: 25%;
+        }
+        
+        .td50 {
+            width: 50%;
+            font-size: 40px;
+        }
+
+        #table2 {
+                background-color: lightblue;
+                text-align: center;
+                font-family: showcardgothic, sans-serif;
+        }
+
+        marquee {
+                color: black;
+                font-size: 20px;
+                font-weight: bold;
+                background-color: white;
+                padding: 10px;
+        }
+
+    </style>
 </head>
 <body>
     
+    <br>
+    
+    <table id="table1">
+        <tr>
+            <td class="td25">
+                <img src="imagenes/disfrazlogo.png" alt="Logo de la fiesta" width="300" height="300">
+            </td>
+            <td class="td50" colspan="2">
+                <p>DIVIERTETE DISFRAZANDOTE!!!</p>
+                <hr style="border: 1px solid white; width: 100%;">
+                <marquee behavior="scroll" direction="left">CLASICOS, SUPER HEROES, PRINCESAS, VAMPIROS, MOMIAS Y MAS...</marquee>
+            </td>
+            <td class="td25">
+                <video width="300" height="300" controls>
+                    <source src="videos/fiesta.mp4" type="video/mp4"></video>
+                
+            </td>
+        </tr>
+    </table>
+    <img src="imagenes/tienda.jpg" alt="Tienda de disfraces" width="80%" height="500">
+    <table id="table2">
+        <tr>
+            <td>
+                <p>NIÑAS</p>
+                <img src="imagenes/nina.jpg" alt="Disfraces de niñas" width="300" height="300">
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
